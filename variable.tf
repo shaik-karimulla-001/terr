@@ -4,11 +4,11 @@ variable "aws_region" {
 }
 
 variable "no_of_instances" {
-default = "3"
+default = "1"
 }
 
 variable "ami" {
-default = "ami-0447a12f28fddb066"
+default = "ami-0c42696027a8ede58"
 }
 
 variable "instance_type" {
